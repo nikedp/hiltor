@@ -1,0 +1,76 @@
+body {
+    margin: 0 auto;
+    width: 1200px;
+    height: 1399px;
+    flex-grow: 0;
+    padding: 40px;
+    background-color: #f5f7fa;
+    font-family: 'Montserrat', sans-serif;
+}
+.main {
+    width: 1200px;
+    height: 1319px;
+    box-shadow: 6px 6px 20px 0 rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+.wrap {
+    display: flex;
+}
+.aside {
+    width: 370px;
+    height: 1319px;
+    background-color: #1E2939;
+    color: #fff
+}
+.bside {
+    margin: 119px 0px 0px 90px;
+}
+.foto {
+    width: 370px;
+    height: 354px;
+    margin-top: 40px;
+}
+.aside-content {
+    margin: 52px 0px 0px 40px;
+}
+li {
+    font-size: 14px;  
+}
+.date {
+    font-size: 12px;
+    color: #a8a8a8;
+}
+.aside li::marker {
+    color: #fb6d3a;
+}
+.aside li {
+    margin: 8px 33px 0 10px;
+}
+.aside ul {
+    padding-left: 0px;
+}
+.contact {
+    margin: 8px 0 0;
+}
+.text-color {
+    color: #fb6d3a;
+}
+.contact a {
+    text-decoration: none;
+    color: grey;
+}
+.contact a:hover {
+    color: #fff;
+    transition: 1s;
+}
+.project a {
+    text-decoration: none;
+    color: grey;
+}
+.project a:hover {
+    color: #fb6d3a;
+    transition: 1s;   
+}
+.project li::marker {
+    font-weight: bold;
+}
